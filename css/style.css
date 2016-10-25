@@ -8,16 +8,58 @@
 html,
 body {
 	margin: 0;
+	font-family: sans-serif;
+
+
 }
 
+header {
+	background: skyblue;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.instructions {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-color: lightgray;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.shields {
+	background: skyblue;
+	padding: 1em;
+
+}
+.pull-left {
+	float: left;
+	border: 5px lightgray solid;
+	margin: 1em;
+
+}
+
+.pull-right {
+	float: right;
+	border: white 1em;
+
+}
 .container {
-	margin: 0 auto;
-	width: 1170px;
+	margin: 24px auto;
+	width: 60%;
 }
 
 .clear {
 	clear: both;
+
+
 }
+
+
+
 
 /***
 * Flexbox Sticky Footer
@@ -32,8 +74,15 @@ body { width: 100%;}
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+
 }
 
 .sfooter-content {
+
 	flex: 1 0 auto;
+}
+
+footer {
+	color: white;
+	background-color: black;
 }
